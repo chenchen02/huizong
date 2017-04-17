@@ -1,0 +1,252 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none; }
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  line-height: 50px;
+  font-weight: 700; }
+
+.header {
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  position: absolute;
+  color: white;
+  top: 30px; }
+
+.headermain a {
+  width: 40%;
+  position: absolute;
+  text-align: left;
+  left: 0px;
+  z-index: 100;
+  top: -70px; }
+
+a.zhiye {
+  left: 566px;
+  width: 40%;
+  top: -70px; }
+
+a.shengya {
+  left: 566px;
+  width: 40%;
+  top: 220px; }
+
+.headermain a h3 {
+  height: 40px; }
+
+.headermain a p {
+  margin: 0px;
+  float: none;
+  line-height: 35px; }
+
+.header img {
+  width: 60px;
+  border-radius: 60px;
+  float: left; }
+
+.header p {
+  float: left;
+  margin-left: 10px; }
+
+.header ul {
+  width: 500px;
+  float: right;
+  border-radius: 25px;
+  z-index: 1000; }
+
+.header ul li {
+  float: left;
+  border-radius: 30px;
+  width: 25%;
+  text-align: center;
+  cursor: pointer; }
+
+.header ul li:hover {
+  animation: aa 4s infinite;
+  -webkit-animation: aa 4s infinite; }
+
+@-webkit-keyframes aa {
+  0% {
+    box-shadow: 0px 0px 0px  white; }
+  25% {
+    box-shadow: 2px 5px 9px  white; }
+  50% {
+    box-shadow: 0px 0px 0px  white; }
+  75% {
+    box-shadow: 2px 5px 9px  white; }
+  100% {
+    box-shadow: 0px 0px 0px  white; } }
+@keyframes aa {
+  0% {
+    box-shadow: 0px 0px 0px  white; }
+  25% {
+    box-shadow: 2px 5px 9px  white; }
+  50% {
+    box-shadow: 0px 0px 0px  white; }
+  75% {
+    box-shadow: 2px 5px 9px  white; }
+  100% {
+    box-shadow: 0px 0px 0px  white; } }
+div.header.min div {
+  z-index: 100; }
+
+.header ul li a {
+  font-size: 17px;
+  font-weight: 600; }
+
+.header div {
+  width: 1000px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  z-index: 100; }
+
+.min {
+  top: 200px; }
+
+.min div {
+  text-align: center; }
+
+.min div span {
+  font-family: STXihei, "Microsoft YaHei";
+  font-family: STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑"; }
+
+.topheader {
+  background-image: url("../img/bg1.jpeg");
+  width: 100%;
+  height: 620px; }
+
+.topheader div {
+  width: 100%;
+  height: 100%;
+  background: #D400FF;
+  opacity: .3;
+  margin: 0 auto; }
+
+.wx1000 {
+  width: 1000px;
+  margin: 0 auto; }
+
+.bodymain {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: white;
+  color: #333; }
+
+.bodymain h2 {
+  letter-spacing: 2px;
+  line-height: 100px; }
+
+.bodymain1 {
+  height: 65px;
+  line-height: 30px;
+  text-align: center;
+  color: #555;
+  background: white; }
+
+.bodymain1 h5 {
+  letter-spacing: 1px; }
+
+.mybody {
+  width: 100%;
+  background-image: url("../img/grfuli.png");
+  height: 620px;
+  padding: 70px 0px; }
+
+.mybodyleft {
+  width: 50%;
+  height: 100%;
+  float: left;
+  color: white; }
+
+.mybodyleft img {
+  width: 100%; }
+
+.mybodyright {
+  width: 49%;
+  height: 100%;
+  float: right;
+  color: white;
+  border-left: 1px solid white; }
+
+.mybodyright p {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding-right: 37px;
+  text-align: left;
+  float: right; }
+
+div.mybodyright h3 {
+  padding-left: 37px;
+  float: left; }
+
+div.mybodyright li {
+  width: 100% !important;
+  float: left;
+  padding: 10px 0px 10px 0px; }
+
+div.mybodyright a {
+  float: left;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid white;
+  width: 90%;
+  line-height: 30px;
+  margin-left: 37px;
+  letter-spacing: 1px; }
+
+.mybodypc {
+  height: 620px;
+  width: 100%;
+  background-image: url("../img/zhiyjin.png");
+  padding: 70px 0px;
+  color: white; }
+
+.mybodypcleft {
+  width: 50%;
+  height: 100%;
+  float: left; }
+
+.mybodypcleft p {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  line-height: 30px;
+  padding: 10px 0px 10px 0px;
+  text-align: left;
+  margin: 0px 37px 10px 37px;
+  border-bottom: 1px solid white; }
+
+div.mybodypcleft h3 {
+  padding-left: 37px; }
+
+.mybodyrightpc {
+  width: 49%;
+  height: 100%;
+  float: right;
+  overflow: hidden;
+  border-left: 1px solid white; }
+
+.mybodyrightpc img {
+  width: 100%;
+  position: relative; }
+
+#riimg2 {
+  left: 20%; }
+
+div.mybodyright h3 a {
+  color: #ff4656;
+  border: 0px;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%; }
+
+/*# sourceMappingURL=index.css.map */

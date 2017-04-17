@@ -1,0 +1,169 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的作品</title>
+<link type="text/css" rel="stylesheet" href="style/index.css">
+    <script type="text/javascript"  src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(window).scroll(function() {
+            if($(window).scrollTop()>400)
+            {
+                $(".lanmu").css({"position":"fixed","left":"675px","background":"rgb(255, 152, 0)","z-index":"1000"});}
+            else
+            {                $(".lanmu").css({"position":"relative","left":"0px","background":"none"});}
+        });
+        })
+    </script>
+</head>
+
+<body>
+<div class="header">
+<div>
+<img src="img/logo.png">
+<p>姓名:陈春浩</p>
+<ul class="lanmu">
+<li onclick="window.scrollTo(0,0);">
+<a>首页</a>
+</li>
+<li onclick="window.scrollTo(0,620);">
+<a>履历</a>
+</li>
+    <li onclick="window.scrollTo(0,1390);">
+        <a>技能</a>
+    </li>
+    <li onclick="window.scrollTo(0,2140);">
+        <a>作品</a>
+    </li>
+</ul>
+</div>
+</div>
+<div class="header min">
+<div>
+<div class="headermain" style="width:1000px;height: 100%;margin: 0 auto;">
+    <a>
+   <h3> 个人简介</h3>
+        <li>
+<p>陈春浩/1991年2月/河南</p></li>
+      <li><p>爱好：看书，上网看资料，打羽毛球。</p></li>
+        <li><p>励志格言：现在决定未来，知识改变命运。</p></li>
+        <li><p>今后目标：前端和后端（JAVA）</p></li>
+        </a>
+
+    <a class="zhiye">
+        <h3> 职业技能</h3>
+        <li>
+            <p>精通:HTML、CSS.对常见的浏览器兼容问题有清晰的理解；</p></li>
+        <li><p>熟练：javascript、Jquery、AngularJS、Bootstrap、Webstorm；</p></li>
+        <li><p>熟练：Git、Sass编译、Font Awesome字体图标；</p></li>
+    </a>
+    <a class="shengya">
+        <h3> 职业生涯</h3>
+        <li>
+            <p>在上海微盟担任SEO推广专员</p></li>
+        <li><p>在上海金程教育担任SEO推广专员</p></li>
+    </a>
+</div>
+
+
+
+</div>
+</div>
+<div class="topheader">
+
+<div>
+
+</div>
+</div>
+
+
+<div class="mybody wx1000">
+
+<div class="mybodyleft">
+    <h2>个人履历</h2>
+<img src="img/lvli1.png">
+
+</div>
+<div class="mybodyright">
+    <ul>
+        <li>  <h3>上海微盟</h3>
+        <p>2015年2月到2017年</p>
+        <a>在公司担任SEO推广，负责多个项目的品牌和产品词的更新和维护，行业词和流量词的覆盖、竞争对手分析、负面处理、通过各搜索引擎排名规则给网站提出合理的意见和建议（包括网页代码
+            、网站设计优化和各类的网站统计工具），在交流方面有良好的沟通表达能力。</a>
+        </li>
+    <li>
+        <h3>河南牧业经济学院</h3>
+        <p>2012年9月到2015年6月</p>
+    </li>
+
+    </ul>
+
+
+</div>
+</div>
+
+<div class="mybodypc wx1000">
+
+<div class="mybodypcleft">
+    <h3>JavaScript:</h3>
+<p>熟练JavaScript原生编程，对面向对象编程有丰富经验，可进行高效模块化开发，并保证良好复用和维护性。可熟练使用MVC框架(如BackBone.js)进行复杂单页面应用开发。对编写jQuery组件有丰富经验。</p>
+
+    <h3>HTML(5)&&CSS(3):</h3>
+    <p>因为工作过SEO的缘故，所以对W3C标准有深刻的认识，尤其是语义化标签，已习惯性使用HTML5标签。能熟练运用CSS完成各种类型的网页布局，包括当前流行的响应式布局。对使用CSS3提升用户体验有浓厚兴趣，喜欢使用CSS3解决过去js达到的效果，曾经常在实际项目中实践(如:transiton、keyframes等)</p>
+<h3>Jquery&&Angularjs:</h3>
+   <p> 能使用Jquery&&Angularjs完成网站前端开发，目前正在利用空闲时间开发某网站项目</P>
+    <h3>移动端开发:</h3>
+    <p> 能熟练使用viewport，开发低成本、高性能。</P>
+</div>
+<div class="mybodyrightpc">
+    <h2>职业技能</h2>
+<img  src="img/jineng.png">
+
+
+</div>
+</div>
+<div class="mybody wx1000">
+
+    <div class="mybodyleft">
+        <h2>项目作品</h2>
+        <img src="img/lvli1.png">
+
+    </div>
+    <div class="mybodyright">
+        <ul>
+            <li>  <h3><a href="https://chenchen02.github.io/mddemo/" target="_blank">门户网站（PC）有链接</a></h3>
+                <p>仿萌店</p>
+                <a>模仿公司门户网站，运用了HTML5、CSS3和javascript;
+
+                    js部分设计了图片轮播运用了HTML DOM和一些属性；
+
+                    CSS方面运用Sass编译，通过Sass定义节省了代码空间提高了效率；
+
+                    在用户登录模块运用了Angularjs和通过jQuery封装方法ajax调用获得json数据；</a>
+            </li>
+            <li>
+                <h3><a href="https://chenchen02.github.io/wapdemo/index.html" target="_blank">购物网站（WebAPP）有链接</a></h3>
+                <p>仿萌店</p>
+                <a>模仿移动端购物网站，调用了viewport（可视区域）；
+
+                    运用了HTML5、CSS3、javascript和Font Awesome字体图标；
+
+                    图片轮播区域采用javascript和HTML DOM对象模型；</a>
+            </li>
+            <li>
+                <h3><a href="https://chenchen02.github.io/mengju/" target="_blank">门户网站（WebAPP）有链接</a></h3>
+                <p>仿盟聚</p>
+                <a>此移动端展示类网站充分运用了html5和CSS3中特有的属性；
+
+                    网站调用了viewport和设置页面的可支持的最大宽度；</a>
+            </li>
+
+        </ul>
+
+
+    </div>
+</div>
+</body>
+
+</html>
