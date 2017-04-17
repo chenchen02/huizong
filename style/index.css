@@ -94,9 +94,6 @@ a.shengya {
     box-shadow: 2px 5px 9px  white; }
   100% {
     box-shadow: 0px 0px 0px  white; } }
-div.header.min div {
-  z-index: 100; }
-
 .header ul li a {
   font-size: 17px;
   font-weight: 600; }
