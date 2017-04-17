@@ -102,8 +102,7 @@ a.shengya {
   width: 1000px;
   margin: 0 auto;
   height: 100%;
-  position: relative;
-  z-index: 100; }
+  position: relative; }
 
 .min {
   top: 200px; }
