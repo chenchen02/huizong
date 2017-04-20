@@ -64,16 +64,15 @@ a.shengya {
   width: 500px;
   float: right;
   border-radius: 25px;
-  z-index: 1000; }
+  z-index: 1000;
+  behavior: url(ie-css3.htc); }
 
 .header ul li {
   float: left;
   border-radius: 30px;
   width: 25%;
   text-align: center;
-  cursor: pointer;
-  background: transparent;
-  behavior: url(ie-css3.htc); }
+  cursor: pointer; }
 
 .header ul li:hover {
   animation: aa 4s infinite;

@@ -72,7 +72,7 @@ margin-left:10px;
 float:right;
 border-radius: 25px;
 z-index: 1000;
-
+behavior: url(ie-css3.htc);
 }
 .header ul li{
     
@@ -82,8 +82,7 @@ float:left;
     text-align: center;
 cursor:pointer;
 
-background:transparent;
-behavior: url(ie-css3.htc);
+
 }
 
 .header ul li:hover{
