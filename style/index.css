@@ -49,6 +49,9 @@ a.shengya {
 .header img {
   width: 60px;
   border-radius: 60px;
+  -webkit-border-radius: 60px;
+  z-index: 1000;
+  behavior: url(ie-css3.htc);
   float: left; }
 
 .header p {
@@ -59,6 +62,7 @@ a.shengya {
   width: 500px;
   float: right;
   border-radius: 25px;
+  behavior: url(ie-css3.htc);
   z-index: 1000; }
 
 .header ul li {
@@ -124,6 +128,7 @@ a.shengya {
   height: 100%;
   background: #D400FF;
   opacity: .3;
+  filter: alpha(opacity=30);
   margin: 0 auto; }
 
 .wx1000 {
