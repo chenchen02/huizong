@@ -79,6 +79,7 @@ a.shengya {
 
 .header ul li:hover {
   animation: aa 4s infinite;
+  behavior: url(ie-css3.htc);
   -webkit-animation: aa 4s infinite; }
 
 @-webkit-keyframes aa {
