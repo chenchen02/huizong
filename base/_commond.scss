@@ -59,8 +59,9 @@ line-height: 35px;
     border-radius: 60px;
 -webkit-border-radius: 60px;
 
-behavior: url(ie-css3.htc);
+
 float: left;
+behavior: url(ie-css3.htc);
 }
 .header p {
     float: left;
@@ -70,9 +71,9 @@ margin-left:10px;
     width: 500px;
 float:right;
 border-radius: 25px;
-behavior: url(ie-css3.htc);
 z-index: 1000;
 background:none;
+behavior: url(ie-css3.htc);
 }
 .header ul li{
     
@@ -81,8 +82,9 @@ float:left;
     width: 25%;
     text-align: center;
 cursor:pointer;
-behavior: url(ie-css3.htc);
+
 background:none;
+behavior: url(ie-css3.htc);
 }
 
 .header ul li:hover{

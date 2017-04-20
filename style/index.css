@@ -53,8 +53,8 @@ a.shengya {
   width: 60px;
   border-radius: 60px;
   -webkit-border-radius: 60px;
-  behavior: url(ie-css3.htc);
-  float: left; }
+  float: left;
+  behavior: url(ie-css3.htc); }
 
 .header p {
   float: left;
@@ -64,9 +64,9 @@ a.shengya {
   width: 500px;
   float: right;
   border-radius: 25px;
-  behavior: url(ie-css3.htc);
   z-index: 1000;
-  background: none; }
+  background: none;
+  behavior: url(ie-css3.htc); }
 
 .header ul li {
   float: left;
@@ -74,8 +74,8 @@ a.shengya {
   width: 25%;
   text-align: center;
   cursor: pointer;
-  behavior: url(ie-css3.htc);
-  background: none; }
+  background: none;
+  behavior: url(ie-css3.htc); }
 
 .header ul li:hover {
   animation: aa 4s infinite;
