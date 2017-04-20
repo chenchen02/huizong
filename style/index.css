@@ -64,9 +64,7 @@ a.shengya {
   width: 500px;
   float: right;
   border-radius: 25px;
-  z-index: 1000;
-  background: transparent;
-  behavior: url(ie-css3.htc); }
+  z-index: 1000; }
 
 .header ul li {
   float: left;
