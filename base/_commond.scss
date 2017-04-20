@@ -72,7 +72,7 @@ margin-left:10px;
 float:right;
 border-radius: 25px;
 z-index: 1000;
-background:none;
+background:transparent;
 behavior: url(ie-css3.htc);
 }
 .header ul li{
@@ -90,8 +90,9 @@ behavior: url(ie-css3.htc);
 .header ul li:hover{
 
 animation:aa 4s infinite;
-behavior: url(ie-css3.htc);
+
 -webkit-animation:aa 4s infinite;
+behavior: url(csshover3.htc);
 
 }
 
@@ -125,7 +126,7 @@ behavior: url(ie-css3.htc);
 .header ul li a {
     font-size: 17px;
     font-weight: 600;
-background:transparent;
+
 }
 
 

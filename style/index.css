@@ -65,7 +65,7 @@ a.shengya {
   float: right;
   border-radius: 25px;
   z-index: 1000;
-  background: none;
+  background: transparent;
   behavior: url(ie-css3.htc); }
 
 .header ul li {
@@ -79,8 +79,8 @@ a.shengya {
 
 .header ul li:hover {
   animation: aa 4s infinite;
-  behavior: url(ie-css3.htc);
-  -webkit-animation: aa 4s infinite; }
+  -webkit-animation: aa 4s infinite;
+  behavior: url(csshover3.htc); }
 
 @-webkit-keyframes aa {
   0% {
@@ -106,8 +106,7 @@ a.shengya {
     box-shadow: 0px 0px 0px  white; } }
 .header ul li a {
   font-size: 17px;
-  font-weight: 600;
-  background: transparent; }
+  font-weight: 600; }
 
 .header div {
   width: 1000px;
