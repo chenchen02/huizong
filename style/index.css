@@ -6,6 +6,9 @@
 ul, li {
   list-style: none; }
 
+body {
+  behavior: url(csshover3.htc); }
+
 h2 {
   font-size: 60px;
   text-align: center;
