@@ -65,7 +65,8 @@ a.shengya {
   float: right;
   border-radius: 25px;
   behavior: url(ie-css3.htc);
-  z-index: 1000; }
+  z-index: 1000;
+  background: none; }
 
 .header ul li {
   float: left;
@@ -74,7 +75,7 @@ a.shengya {
   text-align: center;
   cursor: pointer;
   behavior: url(ie-css3.htc);
-  filter: alpha(opacity=30); }
+  background: none; }
 
 .header ul li:hover {
   animation: aa 4s infinite;
