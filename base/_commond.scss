@@ -58,8 +58,6 @@ line-height: 35px;
     width: 60px;
     border-radius: 60px;
 -webkit-border-radius: 60px;
-
-
 float: left;
 behavior: url(ie-css3.htc);
 }
@@ -72,6 +70,7 @@ margin-left:10px;
 float:right;
 border-radius: 25px;
 z-index: 1000;
+background:transparent;
 behavior: url(ie-css3.htc);
 }
 .header ul li{
@@ -254,7 +253,7 @@ padding-left: 37px;
 
 .mybodyrightpc{width:49%;height:100%;float: right;overflow:hidden;border-left: 1px solid white;}
 
-.mybodyrightpc img{width:100%;position: relative;}
+.mybodyrightpc img{width:100%;}
 
 
 #riimg2{left:20%;}

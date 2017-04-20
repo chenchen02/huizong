@@ -65,6 +65,7 @@ a.shengya {
   float: right;
   border-radius: 25px;
   z-index: 1000;
+  background: transparent;
   behavior: url(ie-css3.htc); }
 
 .header ul li {
@@ -239,8 +240,7 @@ div.mybodypcleft h3 {
   border-left: 1px solid white; }
 
 .mybodyrightpc img {
-  width: 100%;
-  position: relative; }
+  width: 100%; }
 
 #riimg2 {
   left: 20%; }
