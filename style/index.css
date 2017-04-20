@@ -70,7 +70,8 @@ a.shengya {
   width: 25%;
   text-align: center;
   cursor: pointer;
-  behavior: url(ie-css3.htc); }
+  behavior: url(ie-css3.htc);
+  filter: alpha(opacity=30); }
 
 .header ul li:hover {
   animation: aa 4s infinite;
